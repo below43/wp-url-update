@@ -99,7 +99,7 @@ The plugin consists of:
 
 ## License
 
-This plugin is licensed under the GPL v2 or later.
+This plugin is licensed under the MIT License.
 
 ## Support
 

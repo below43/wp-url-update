@@ -1,0 +1,91 @@
+.wp-url-update-wrap {
+    max-width: 900px;
+}
+
+.wp-url-update-container {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.wp-url-update-notice {
+    margin: 20px 0;
+}
+
+.wp-url-update-wrap .form-table th {
+    width: 200px;
+    padding: 20px 10px 20px 0;
+}
+
+.wp-url-update-wrap .form-table td {
+    padding: 15px 10px;
+}
+
+.wp-url-update-wrap .regular-text {
+    width: 100%;
+    max-width: 500px;
+}
+
+.wp-url-update-wrap fieldset label {
+    display: block;
+    margin: 8px 0;
+}
+
+.wp-url-update-wrap .description {
+    margin-top: 5px;
+    font-style: italic;
+}
+
+#wp-url-update-results {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #ccd0d4;
+}
+
+#wp-url-update-progress {
+    margin-bottom: 20px;
+}
+
+.wp-url-update-log-content {
+    background: #f6f7f7;
+    border: 1px solid #c3c4c7;
+    border-left: 4px solid #2271b1;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.wp-url-update-log-content h3 {
+    margin-top: 0;
+    color: #1d2327;
+}
+
+.wp-url-update-log-content ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.wp-url-update-log-content li {
+    margin: 8px 0;
+    color: #2c3338;
+}
+
+#wp-url-update-submit:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 782px) {
+    .wp-url-update-wrap .form-table th,
+    .wp-url-update-wrap .form-table td {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+    }
+    
+    .wp-url-update-wrap .regular-text {
+        max-width: 100%;
+    }
+}
